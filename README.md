@@ -1,1 +1,1 @@
-Clean architecture ie Online Muhasebe Server
+Clean architecture ile Online Muhasebe Server
