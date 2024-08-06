@@ -11,17 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{FE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D79DDEA6-1CAB-4307-9D4B-7080398D7E7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMuhasebeServer.Application", "OnlineMuhasebeServer.Application\OnlineMuhasebeServer.Application.csproj", "{2439A972-C006-4901-A8E1-7429ED245B6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineMuhasebeServer.Application", "OnlineMuhasebeServer.Application\OnlineMuhasebeServer.Application.csproj", "{2439A972-C006-4901-A8E1-7429ED245B6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMuhasebeServer.Domain", "OnlineMuhasebeServer.Domain\OnlineMuhasebeServer.Domain.csproj", "{9B998BFC-FD3C-4902-A031-1CB53D884C66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineMuhasebeServer.Domain", "OnlineMuhasebeServer.Domain\OnlineMuhasebeServer.Domain.csproj", "{9B998BFC-FD3C-4902-A031-1CB53D884C66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMuhasebeServer.Infrasturcture", "OnlineMuhasebeServer.Infrasturcture\OnlineMuhasebeServer.Infrasturcture.csproj", "{F917933A-F56C-46B8-B056-1C2293E22957}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineMuhasebeServer.Infrasturcture", "OnlineMuhasebeServer.Infrasturcture\OnlineMuhasebeServer.Infrasturcture.csproj", "{F917933A-F56C-46B8-B056-1C2293E22957}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMuhasebeServer.Persistance", "OnlineMuhasebeServer.Persistance\OnlineMuhasebeServer.Persistance.csproj", "{4C7B3F4C-A189-470B-886D-28F0F3CFADD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineMuhasebeServer.Persistance", "OnlineMuhasebeServer.Persistance\OnlineMuhasebeServer.Persistance.csproj", "{4C7B3F4C-A189-470B-886D-28F0F3CFADD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMuhasebeServer.Presentation", "OnlineMuhasebeServer.Presentation\OnlineMuhasebeServer.Presentation.csproj", "{54919C77-7C61-45DA-8464-1D3FB8A30CF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineMuhasebeServer.Presentation", "OnlineMuhasebeServer.Presentation\OnlineMuhasebeServer.Presentation.csproj", "{54919C77-7C61-45DA-8464-1D3FB8A30CF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMuhasebeServer.WebApi", "OnlineMuhasebeServer.WebApi\OnlineMuhasebeServer.WebApi.csproj", "{10CB2C2F-001F-4FDB-8867-E5FCC7061701}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMuhasebeServer.WebApi", "OnlineMuhasebeServer.WebApi\OnlineMuhasebeServer.WebApi.csproj", "{D4E14DCD-4CE2-40E8-8726-C3E65F4C7838}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,10 +49,10 @@ Global
 		{54919C77-7C61-45DA-8464-1D3FB8A30CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54919C77-7C61-45DA-8464-1D3FB8A30CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54919C77-7C61-45DA-8464-1D3FB8A30CF3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10CB2C2F-001F-4FDB-8867-E5FCC7061701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10CB2C2F-001F-4FDB-8867-E5FCC7061701}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10CB2C2F-001F-4FDB-8867-E5FCC7061701}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10CB2C2F-001F-4FDB-8867-E5FCC7061701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E14DCD-4CE2-40E8-8726-C3E65F4C7838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E14DCD-4CE2-40E8-8726-C3E65F4C7838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E14DCD-4CE2-40E8-8726-C3E65F4C7838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E14DCD-4CE2-40E8-8726-C3E65F4C7838}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,7 +65,6 @@ Global
 		{F917933A-F56C-46B8-B056-1C2293E22957} = {FE3C3463-0756-4FCB-9228-78F44759C3FD}
 		{4C7B3F4C-A189-470B-886D-28F0F3CFADD3} = {FE3C3463-0756-4FCB-9228-78F44759C3FD}
 		{54919C77-7C61-45DA-8464-1D3FB8A30CF3} = {FE3C3463-0756-4FCB-9228-78F44759C3FD}
-		{10CB2C2F-001F-4FDB-8867-E5FCC7061701} = {8C68B4FB-3FD7-4FCD-A099-DA0ADC13249D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF71F872-91E6-4C6B-ACD8-C71F4F61D795}
